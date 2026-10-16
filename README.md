@@ -2,9 +2,12 @@
 
 一个本地音乐创作工作台：编辑旋律和伴奏，让 Agent 协助改谱，导入歌曲制作翻唱。
 
-**[下载最新版：0.12.0-alpha.19](https://github.com/xiazhiaidao/musicagent-releases/releases/latest)** · Windows x64
+**[下载最新版：0.12.0-alpha.20](https://github.com/xiazhiaidao/musicagent-releases/releases/latest)** · Windows x64
 
 ## 新版功能
+
+- 人声波形与可拖动字边界，原参考 / 当前歌声切换，实际音高测量曲线；边界调整支持撤销与重做。
+- 局部重唱带邻字上下文合成，再仅替换选中字，并增加接缝过渡；自然度仍需实际试听确认。
 
 - 逐字歌词与音符编辑：改字、指定拼音、调整音高与时长。
 - 角色重唱：绮萱导唱结合所选 RVC 音色，修改后重新演唱并替换时间线对应时段。
